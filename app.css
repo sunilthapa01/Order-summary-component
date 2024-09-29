@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://res.cloudinary.com/dkn6an4bw/image/upload/v1727554182/pattern-background-desktop_kimqrj.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    width: 60%;
+    height: 600px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #DDDD;
+}
+
+.box-1 img {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    height: 40%;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-2 h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 10px;
+    color: #202F54;
+}
+
+.text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 10%;
+    font-size: 16px;
+    color: grey;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-align: center;
+}
+
+.Annual-1 {
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #F8F9FE;
+    padding: 10px 30px;
+    flex-direction: row;
+    border-radius: 8px;
+}
+
+.Annual-1 ul li strong {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #202F54;
+}
+
+.Annual-1 ul li {
+    list-style: none;
+    margin-left: 8px;
+}
+
+.Annual-1 img {
+    width: 50px;
+}
+
+.Annual-1 a {
+    margin-left: 30%;
+    color: #202F54;
+}
+
+button {
+    background-color: #382AE0;
+    color: #fff;
+    border: none;
+    padding: 16px 90px;
+    border-radius: 10px;
+    margin: 0px 30px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #5c52c6;
+}
+
+#btn {
+    background: none;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Media query for mobile screens (max-width: 600px) */
+@media (max-width: 600px) {
+
+    body {
+        background: url('https://res.cloudinary.com/dkn6an4bw/image/upload/v1727554184/pattern-background-mobile_ul54kw.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .box-1 {
+        width: 90%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .box-1 img {
+        height: auto;
+    }
+
+    .box-2 h1 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .text-1 {
+        margin: 10px 5%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .Annual-1 {
+        flex-direction: row;
+        padding: 20px 10px;
+    }
+
+    .Annual-1 a {
+        margin-left: 10%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    button {
+        padding: 12px 20%;
+        box-sizing: border-box;
+    }
+
+    #btn {
+        font-size: 14px;
+    }
+}
